@@ -1,0 +1,20 @@
+#include <stdio.h>
+void main()
+{
+    int a=0,b=1,n,i;
+    printf("enter a limit \n");
+    scanf("%d",&n);
+    int sum=a+b;
+    printf("Fibonacci Series:\n%d \n%d ",a,b);
+    for(i=1;i<=n;i++)
+    {
+        printf("\n%d",sum);
+        a=b;
+        b=sum;
+        sum=a+b;
+       
+    }
+   
+   
+   
+}
